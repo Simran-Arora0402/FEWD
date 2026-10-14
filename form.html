@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Form</title>
+</head>
+<body>
+    <h1>Student Information Form</h1>
+    <form>
+    
+    //Text field
+    <label for="username">Student Name:</label>
+    <input type="text" id="username" >
+    <br><br>
+
+    //Email field
+    <label for="email">Email:</label>
+    <input type="email" id="email">
+    <br><br>
+
+    //Password field
+    <label for="password">Password:</label>
+    <input type="password" id="password">
+    <br><br>
+
+    //Age field
+    <label for="age">Age:</label>
+    <input type="age" id="age" min="1" max="100">
+    <br><br>
+
+    //Telephone field
+    <label for="mobile">Mobile:</label>
+    <input type="tel" id="mobile">
+    <br><br>
+
+    //Radio buttons
+    <label>Gender:</label>
+    <input type="radio" name="Gender" id="male">
+    <label for="male">Male</label>
+
+    <input type="radio" name="Gender" id="female">
+    <label for="female">Female</label>
+
+    <input type="radio" name="Gender" id="other">
+    <label for="other">Other</label>
+    <br><br>
+
+    //Checkboxes
+    <label for="skills">Skills:</label>
+    <input type="checkbox" name="skills" id="html">
+    <label for="html">HTML</label>
+
+    <input type="checkbox" name="skills" id="css">
+    <label for="css">CSS</label>
+
+    <input type="checkbox" name="skills" id="javascript">
+    <label for="javascript">JAVASCRIPT</label>
+    <br><br>
+
+    //Dropdown
+    <label for="course">Course:</label>
+    <select id="course">
+        <option value="">Select Course</option>
+        <option value="OOPSJ">OOPSJ</option>
+        <option value="FEWD">FEWD</option>
+        <option value="Development">Development</option>
+        <option value="Operating System">Operating System</option>
+
+    </select>
+    <br><br>
+
+    //Dropdown for multiple selection
+    <label for="preferred lang">Preferred Langauges:</label>
+    <select  id="preferred lang" multiple>
+        <option value="Java">Java</option>
+        <option value="HTML">HTML</option>
+        <option value="Python">Python</option>
+        <option value="C++">C++</option>
+    </select>
+    <br><br>
+
+    //Textarea for multiple line text
+    <label for="address">Address:</label>
+    <textarea id="address" rows="4"></textarea>
+    <br><br>
+
+    //Date field
+    <label for="date">Date of birth:</label>
+    <input type="date" id="date">
+    <br><br>
+
+    //Time field
+    <label for="time">Preferred Time:</label>
+    <input type="time" id="time">
+    <br><br>
+
+    //Terms n conditions
+    <input type="checkbox" id="conditions">
+    <label for="conditions">I accept the terms and conditions</label>
+    <br><br>
+
+    //Range
+    <label for="skill">Programming Skill Level(1-10)</label>
+    <input type="range" id="skill" min="1" max="10" value="5">
+    <br><br>
+
+    //Color field
+    <label for="color">Favourite Color:</label>
+    <input type="color" id="color" value="#e66465">
+    <br><br>
+    
+    //File field
+    <label for="resume">Upload Resume:</label>
+    <input type="file" id="file">
+    <br><br>
+
+    //URL field
+    <label for="url">Portfolio URL:</label>
+    <input type="url" id="url" placeholder="https://example.com" >
+    <br><br>
+
+    //Search field
+    <label for="search topic">Search Topic:</label>
+    <input type="search" id="search topic">
+    <br><br>
+
+    //Buttons
+    <button type="button" id="btn">Read Form Values</button>
+    <button id="btn2">Reset</button>
+    </form>
+    
+</body>
+</html>
